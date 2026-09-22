@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Apurva Doc — Frontend
 
 React + Vite + TypeScript frontend for **Apurva Doc**, an AI document
@@ -54,3 +55,6 @@ Defined in `tailwind.config.js`:
 2. Replace `mockData` imports with TanStack Query hooks calling `lib/api.ts`.
 3. Wire real auth (JWT storage is already handled in the axios interceptor).
 4. Drop in PDF.js in `DocumentViewer.tsx` for real page rendering.
+=======
+# DOC-using-RAG
+>>>>>>> b181d1977ae8a598dfe9da1aca1686546f2f1bac

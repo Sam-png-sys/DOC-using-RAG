@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-surface-muted text-ink font-body antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-ink;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6DDE6;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid #1DA1E5;
+  outline-offset: 2px;
+}
